@@ -16,7 +16,7 @@ sorttop3 = total.sort_values()
 
 # selecting the top 3 values
 top3 = sorttop3.tail(3)
-print(top3)
+
 
 # plotting the graph
 plt.xlabel('Countries', fontsize=5)
